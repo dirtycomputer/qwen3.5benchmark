@@ -1,0 +1,233 @@
+{
+  "Knowledge": {
+    "MMLU-Pro": {
+      "hf_dataset_id": "TIGER-Lab/MMLU-Pro",
+      "url": "https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro",
+      "description": "Enhanced MMLU with harder, professional-level questions"
+    },
+    "MMLU-Redux": {
+      "hf_dataset_id": "edinburgh-dawg/mmlu-redux",
+      "url": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux",
+      "description": "Corrected and improved version of MMLU"
+    },
+    "SuperGPQA": {
+      "hf_dataset_id": "m-a-p/SuperGPQA",
+      "url": "https://huggingface.co/datasets/m-a-p/SuperGPQA",
+      "description": "Super Graduate-level Google-Proof Q&A"
+    },
+    "C-Eval": {
+      "hf_dataset_id": "ceval/ceval-exam",
+      "url": "https://huggingface.co/datasets/ceval/ceval-exam",
+      "description": "Chinese evaluation benchmark"
+    }
+  },
+  "Instruction Following": {
+    "IFEval": {
+      "hf_dataset_id": "google/IFEval",
+      "url": "https://huggingface.co/datasets/google/IFEval",
+      "description": "~500 verifiable instruction following tasks with 25 constraint types"
+    },
+    "IFBench": {
+      "hf_dataset_id": "allenai/IFBench_test",
+      "url": "https://huggingface.co/datasets/allenai/IFBench_test",
+      "github": "https://github.com/allenai/IFBench",
+      "description": "Improved IFEval with 58 new diverse verifiable constraints"
+    },
+    "MultiChallenge": {
+      "github": "https://github.com/ekwinox117/multi-challenge",
+      "url": "https://scale.com/leaderboard/multichallenge",
+      "description": "Multi-turn multi-constraint challenge benchmark"
+    }
+  },
+  "Long Context": {
+    "AA-LCR": {
+      "hf_dataset_id": "ArtificialAnalysis/AA-LCR",
+      "url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-LCR",
+      "description": "100 challenging questions across ~100k token multi-document inputs"
+    },
+    "LongBench v2": {
+      "hf_dataset_id": "THUDM/LongBench-v2",
+      "url": "https://huggingface.co/datasets/THUDM/LongBench-v2",
+      "github": "https://github.com/THUDM/LongBench",
+      "description": "503 multiple-choice questions with 8k-2M word context"
+    }
+  },
+  "STEM": {
+    "GPQA": {
+      "hf_dataset_id": "Idavidrein/gpqa",
+      "url": "https://huggingface.co/datasets/Idavidrein/gpqa",
+      "github": "https://github.com/idavidrein/gpqa",
+      "description": "448 graduate-level multiple-choice questions (diamond subset: 198)"
+    },
+    "HLE": {
+      "hf_dataset_id": "cais/hle",
+      "url": "https://huggingface.co/datasets/cais/hle",
+      "github": "https://github.com/centerforaisafety/hle",
+      "description": "Humanity's Last Exam - 2500 questions across dozens of subjects"
+    },
+    "HLE-Verified": {
+      "hf_dataset_id": "skylenage/HLE-Verified",
+      "url": "https://huggingface.co/datasets/skylenage/HLE-Verified",
+      "description": "Verified and revised HLE with error taxonomy"
+    }
+  },
+  "Reasoning": {
+    "LiveCodeBench v6": {
+      "hf_dataset_id": "livecodebench/code_generation",
+      "url": "https://huggingface.co/datasets/livecodebench/code_generation",
+      "github": "https://github.com/LiveCodeBench/LiveCodeBench",
+      "description": "1055 competitive programming problems (May 2023 - Apr 2025)"
+    },
+    "HMMT Feb 25": {
+      "hf_dataset_id": "MathArena/hmmt_feb_2025",
+      "url": "https://huggingface.co/datasets/MathArena/hmmt_feb_2025",
+      "github": "https://github.com/eth-sri/matharena",
+      "description": "Harvard-MIT Mathematics Tournament February 2025"
+    },
+    "HMMT Nov 25": {
+      "hf_dataset_id": "MathArena/hmmt_nov_2025",
+      "url": "https://huggingface.co/datasets/MathArena/hmmt_nov_2025",
+      "github": "https://github.com/eth-sri/matharena",
+      "description": "Harvard-MIT Mathematics Tournament November 2025"
+    },
+    "IMOAnswerBench": {
+      "hf_dataset_id": "OpenEvals/IMO-AnswerBench",
+      "url": "https://huggingface.co/datasets/OpenEvals/IMO-AnswerBench",
+      "description": "400 IMO problems across 4 categories and 4 difficulty levels"
+    },
+    "AIME26": {
+      "hf_dataset_id": "MathArena/aime_2026",
+      "url": "https://huggingface.co/datasets/MathArena/aime_2026",
+      "description": "30 problems from AIME 2026 (I and II)"
+    }
+  },
+  "General Agent": {
+    "BFCL-V4": {
+      "hf_dataset_id": "gorilla-llm/Berkeley-Function-Calling-Leaderboard",
+      "url": "https://huggingface.co/datasets/gorilla-llm/Berkeley-Function-Calling-Leaderboard",
+      "description": "Berkeley Function Calling Leaderboard V4"
+    },
+    "TAU2-Bench": {
+      "github": "https://github.com/sierra-research/tau2-bench",
+      "hf_dataset_id": "HuggingFaceH4/tau2-bench-data",
+      "url": "https://huggingface.co/datasets/HuggingFaceH4/tau2-bench-data",
+      "description": "Tool-Augmented Understanding benchmark in customer service domains"
+    },
+    "VITA-Bench": {
+      "github": "https://github.com/meituan-longcat/vitabench",
+      "description": "Versatile Interactive Task Agent Benchmark (food delivery, retail, travel)"
+    },
+    "DeepPlanning": {
+      "hf_dataset_id": "Qwen/DeepPlanning",
+      "url": "https://huggingface.co/datasets/Qwen/DeepPlanning",
+      "description": "Long-horizon agentic planning with verifiable constraints"
+    },
+    "Tool Decathlon": {
+      "github": "https://github.com/hkust-nlp/Toolathlon",
+      "hf_dataset_id": "hkust-nlp/Toolathlon-Trajectories",
+      "url": "https://huggingface.co/datasets/hkust-nlp/Toolathlon-Trajectories",
+      "description": "600+ tools across 32 applications, 108 tasks"
+    },
+    "MCP-Mark": {
+      "github": "https://github.com/eval-sys/mcpmark",
+      "url": "https://mcpmark.ai/",
+      "description": "127 MCP stress-testing tasks"
+    }
+  },
+  "Search Agent": {
+    "HLE w/ tool": {
+      "hf_dataset_id": "cais/hle",
+      "url": "https://huggingface.co/datasets/cais/hle",
+      "note": "Same dataset as HLE, evaluated with tool/search augmentation",
+      "description": "HLE with tool augmentation"
+    },
+    "BrowseComp": {
+      "github": "https://github.com/openai/simple-evals",
+      "description": "1266 challenging web browsing questions (OpenAI)"
+    },
+    "BrowseComp-zh": {
+      "hf_dataset_id": "PALIN2018/BrowseComp-ZH",
+      "url": "https://huggingface.co/datasets/PALIN2018/BrowseComp-ZH",
+      "description": "289 Chinese multi-hop web browsing questions across 11 domains"
+    },
+    "WideSearch": {
+      "hf_dataset_id": "ByteDance-Seed/WideSearch",
+      "url": "https://huggingface.co/datasets/ByteDance-Seed/WideSearch",
+      "github": "https://github.com/ByteDance-Seed/WideSearch",
+      "description": "200 tasks (100 EN + 100 ZH) for broad info-seeking evaluation"
+    },
+    "Seal-0": {
+      "hf_dataset_id": "vtllms/sealqa",
+      "url": "https://huggingface.co/datasets/vtllms/sealqa",
+      "description": "111 search-augmented LM evaluation samples"
+    }
+  },
+  "Multilingualism": {
+    "MMMLU": {
+      "hf_dataset_id": "openai/MMMLU",
+      "url": "https://huggingface.co/datasets/openai/MMMLU",
+      "description": "OpenAI multilingual MMLU with professional translations in 14 languages"
+    },
+    "MMLU-ProX": {
+      "hf_dataset_id": "li-lab/MMLU-ProX",
+      "url": "https://huggingface.co/datasets/li-lab/MMLU-ProX",
+      "github": "https://github.com/weihao1115/MMLU-ProX",
+      "description": "Multilingual MMLU-Pro covering 29 languages"
+    },
+    "NOVA-63": {
+      "hf_dataset_id": "zjy1298/NOVA-63",
+      "url": "https://huggingface.co/datasets/zjy1298/NOVA-63",
+      "description": "93536 questions across 14 languages and 63 disciplines"
+    },
+    "INCLUDE": {
+      "github": "https://github.com/nlp-uoregon/mlmm-evaluation",
+      "url": "https://openreview.net/forum?id=k3gCieTXeY",
+      "description": "197243 QA pairs across 44 languages with regional knowledge"
+    },
+    "Global PIQA": {
+      "hf_dataset_id": "mrlbenchmarks/global-piqa-nonparallel",
+      "url": "https://huggingface.co/datasets/mrlbenchmarks/global-piqa-nonparallel",
+      "github": "https://github.com/mrlbenchmarks/global-piqa",
+      "description": "Participatory commonsense reasoning for 100+ languages"
+    },
+    "PolyMATH": {
+      "hf_dataset_id": "Qwen/PolyMath",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath",
+      "github": "https://github.com/QwenLM/PolyMath",
+      "description": "Multilingual math reasoning, 18 languages, 4 difficulty levels"
+    },
+    "WMT24++": {
+      "hf_dataset_id": "google/wmt24pp",
+      "url": "https://huggingface.co/datasets/google/wmt24pp",
+      "description": "Harder WMT24 subset, 55 languages, scored with XCOMET-XXL"
+    },
+    "MAXIFE": {
+      "url": "https://arxiv.org/abs/2506.01776",
+      "description": "Multilingual & Cross-lingual IF Evaluation, 23 languages",
+      "note": "Check paper for official dataset release link"
+    }
+  },
+  "Coding Agent": {
+    "SWE-bench Verified": {
+      "hf_dataset_id": "SWE-bench/SWE-bench_Verified",
+      "url": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified",
+      "github": "https://github.com/SWE-bench/SWE-bench",
+      "description": "500 human-verified software engineering tasks"
+    },
+    "SWE-bench Multilingual": {
+      "github": "https://github.com/multi-swe-bench/multi-swe-bench",
+      "url": "https://www.swebench.com/multilingual.html",
+      "description": "300+ SE tasks across 9 programming languages"
+    },
+    "SecCodeBench": {
+      "github": "https://github.com/alibaba/sec-code-bench",
+      "description": "Security code generation, 22 CWE categories, 5 languages"
+    },
+    "Terminal Bench 2": {
+      "hf_dataset_id": "zai-org/terminal-bench-2-verified",
+      "url": "https://huggingface.co/datasets/zai-org/terminal-bench-2-verified",
+      "github": "https://github.com/harbor-framework/terminal-bench",
+      "description": "89 manually-verified terminal/CLI tasks"
+    }
+  }
+}
