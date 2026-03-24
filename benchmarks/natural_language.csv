@@ -1,0 +1,42 @@
+Category,Benchmark,GPT5.2,Claude 4.5 Opus,Gemini-3 Pro,Qwen3-Max-Thinking,K2.5-1T-A32B,Qwen3.5-397B-A17B
+Knowledge,MMLU-Pro,87.4,89.5,89.8,85.7,87.1,87.8
+Knowledge,MMLU-Redux,95.0,95.6,95.9,92.8,94.5,94.9
+Knowledge,SuperGPQA,67.9,70.6,74.0,67.3,69.2,70.4
+Knowledge,C-Eval,90.5,92.2,93.4,93.7,94.0,93.0
+Instruction Following,IFEval,94.8,90.9,93.5,93.4,93.9,92.6
+Instruction Following,IFBench,75.4,58.0,70.4,70.9,70.2,76.5
+Instruction Following,MultiChallenge,57.9,54.2,64.2,63.3,62.7,67.6
+Long Context,AA-LCR,72.7,74.0,70.7,68.7,70.0,68.7
+Long Context,LongBench v2,54.5,64.4,68.2,60.6,61.0,63.2
+STEM,GPQA,92.4,87.0,91.9,87.4,87.6,88.4
+STEM,HLE,35.5,30.8,37.5,30.2,30.1,28.7
+STEM,HLE-Verified,43.3,38.8,48.0,37.6,,37.6
+Reasoning,LiveCodeBench v6,87.7,84.8,90.7,85.9,85.0,83.6
+Reasoning,HMMT Feb 25,99.4,92.9,97.3,98.0,95.4,94.8
+Reasoning,HMMT Nov 25,100.0,93.3,93.3,94.7,91.1,92.7
+Reasoning,IMOAnswerBench,86.3,84.0,83.3,83.9,81.8,80.9
+Reasoning,AIME26,96.7,93.3,90.6,93.3,93.3,91.3
+General Agent,BFCL-V4,63.1,77.5,72.5,67.7,68.3,72.9
+General Agent,TAU2-Bench,87.1,91.6,85.4,84.6,77.0,86.7
+General Agent,VITA-Bench,38.2,56.3,51.6,40.9,41.9,49.7
+General Agent,DeepPlanning,44.6,33.9,23.3,28.7,14.5,34.3
+General Agent,Tool Decathlon,43.8,43.5,36.4,18.8,27.8,38.3
+General Agent,MCP-Mark,57.5,42.3,53.9,33.5,29.5,46.1
+Search Agent,HLE w/ tool,45.5,43.4,45.8,49.8,50.2,48.3
+Search Agent,BrowseComp,65.8,67.8,59.2,53.9,,69.0
+Search Agent,BrowseComp (alt strategy),,,,,,78.6
+Search Agent,BrowseComp-zh,76.1,62.4,66.8,60.9,,70.3
+Search Agent,WideSearch,76.8,76.4,68.0,57.9,72.7,74.0
+Search Agent,Seal-0,45.0,47.7,45.5,46.9,57.4,46.9
+Multilingualism,MMMLU,89.5,90.1,90.6,84.4,86.0,88.5
+Multilingualism,MMLU-ProX,83.7,85.7,87.7,78.5,82.3,84.7
+Multilingualism,NOVA-63,54.6,56.7,56.7,54.2,56.0,59.1
+Multilingualism,INCLUDE,87.5,86.2,90.5,82.3,83.3,85.6
+Multilingualism,Global PIQA,90.9,91.6,93.2,86.0,89.3,89.8
+Multilingualism,PolyMATH,62.5,79.0,81.6,64.7,43.1,73.3
+Multilingualism,WMT24++,78.8,79.7,80.7,77.6,77.6,78.9
+Multilingualism,MAXIFE,88.4,79.2,87.5,84.0,72.8,88.2
+Coding Agent,SWE-bench Verified,80.0,80.9,76.2,75.3,76.8,76.4
+Coding Agent,SWE-bench Multilingual,72.0,77.5,65.0,66.7,73.0,69.3
+Coding Agent,SecCodeBench,68.7,68.6,62.4,57.5,61.3,68.3
+Coding Agent,Terminal Bench 2,54.0,59.3,54.2,22.5,50.8,52.5

@@ -1,0 +1,263 @@
+{
+  "Knowledge": {
+    "benchmarks": ["MMLU-Pro", "MMLU-Redux", "SuperGPQA", "C-Eval"],
+    "description": "Tests factual knowledge and understanding across diverse domains",
+    "results": {
+      "MMLU-Pro": {
+        "description": "Massive Multitask Language Understanding - Professional level",
+        "GPT5.2": 87.4, "Claude 4.5 Opus": 89.5, "Gemini-3 Pro": 89.8,
+        "Qwen3-Max-Thinking": 85.7, "K2.5-1T-A32B": 87.1, "Qwen3.5-397B-A17B": 87.8
+      },
+      "MMLU-Redux": {
+        "description": "MMLU with corrected and improved questions",
+        "GPT5.2": 95.0, "Claude 4.5 Opus": 95.6, "Gemini-3 Pro": 95.9,
+        "Qwen3-Max-Thinking": 92.8, "K2.5-1T-A32B": 94.5, "Qwen3.5-397B-A17B": 94.9
+      },
+      "SuperGPQA": {
+        "description": "Super Graduate-level Google-Proof Q&A",
+        "GPT5.2": 67.9, "Claude 4.5 Opus": 70.6, "Gemini-3 Pro": 74.0,
+        "Qwen3-Max-Thinking": 67.3, "K2.5-1T-A32B": 69.2, "Qwen3.5-397B-A17B": 70.4
+      },
+      "C-Eval": {
+        "description": "Chinese evaluation benchmark",
+        "GPT5.2": 90.5, "Claude 4.5 Opus": 92.2, "Gemini-3 Pro": 93.4,
+        "Qwen3-Max-Thinking": 93.7, "K2.5-1T-A32B": 94.0, "Qwen3.5-397B-A17B": 93.0
+      }
+    }
+  },
+  "Instruction Following": {
+    "benchmarks": ["IFEval", "IFBench", "MultiChallenge"],
+    "description": "Tests ability to follow complex instructions accurately",
+    "results": {
+      "IFEval": {
+        "description": "Instruction Following Evaluation",
+        "GPT5.2": 94.8, "Claude 4.5 Opus": 90.9, "Gemini-3 Pro": 93.5,
+        "Qwen3-Max-Thinking": 93.4, "K2.5-1T-A32B": 93.9, "Qwen3.5-397B-A17B": 92.6
+      },
+      "IFBench": {
+        "description": "Instruction Following Benchmark",
+        "GPT5.2": 75.4, "Claude 4.5 Opus": 58.0, "Gemini-3 Pro": 70.4,
+        "Qwen3-Max-Thinking": 70.9, "K2.5-1T-A32B": 70.2, "Qwen3.5-397B-A17B": 76.5
+      },
+      "MultiChallenge": {
+        "description": "Multi-constraint challenge benchmark",
+        "GPT5.2": 57.9, "Claude 4.5 Opus": 54.2, "Gemini-3 Pro": 64.2,
+        "Qwen3-Max-Thinking": 63.3, "K2.5-1T-A32B": 62.7, "Qwen3.5-397B-A17B": 67.6
+      }
+    }
+  },
+  "Long Context": {
+    "benchmarks": ["AA-LCR", "LongBench v2"],
+    "description": "Tests performance on long context understanding and retrieval",
+    "results": {
+      "AA-LCR": {
+        "description": "All-Around Long Context Retrieval",
+        "GPT5.2": 72.7, "Claude 4.5 Opus": 74.0, "Gemini-3 Pro": 70.7,
+        "Qwen3-Max-Thinking": 68.7, "K2.5-1T-A32B": 70.0, "Qwen3.5-397B-A17B": 68.7
+      },
+      "LongBench v2": {
+        "description": "Long document understanding benchmark v2",
+        "GPT5.2": 54.5, "Claude 4.5 Opus": 64.4, "Gemini-3 Pro": 68.2,
+        "Qwen3-Max-Thinking": 60.6, "K2.5-1T-A32B": 61.0, "Qwen3.5-397B-A17B": 63.2
+      }
+    }
+  },
+  "STEM": {
+    "benchmarks": ["GPQA", "HLE", "HLE-Verified"],
+    "description": "Tests STEM reasoning at graduate and expert level",
+    "results": {
+      "GPQA": {
+        "description": "Graduate-Level Google-Proof Q&A",
+        "GPT5.2": 92.4, "Claude 4.5 Opus": 87.0, "Gemini-3 Pro": 91.9,
+        "Qwen3-Max-Thinking": 87.4, "K2.5-1T-A32B": 87.6, "Qwen3.5-397B-A17B": 88.4
+      },
+      "HLE": {
+        "description": "Humanity's Last Exam",
+        "GPT5.2": 35.5, "Claude 4.5 Opus": 30.8, "Gemini-3 Pro": 37.5,
+        "Qwen3-Max-Thinking": 30.2, "K2.5-1T-A32B": 30.1, "Qwen3.5-397B-A17B": 28.7
+      },
+      "HLE-Verified": {
+        "description": "Verified version of HLE with error taxonomy. Dataset: https://huggingface.co/datasets/skylenage/HLE-Verified",
+        "GPT5.2": 43.3, "Claude 4.5 Opus": 38.8, "Gemini-3 Pro": 48.0,
+        "Qwen3-Max-Thinking": 37.6, "K2.5-1T-A32B": null, "Qwen3.5-397B-A17B": 37.6
+      }
+    }
+  },
+  "Reasoning": {
+    "benchmarks": ["LiveCodeBench v6", "HMMT Feb 25", "HMMT Nov 25", "IMOAnswerBench", "AIME26"],
+    "description": "Tests mathematical and logical reasoning capabilities",
+    "results": {
+      "LiveCodeBench v6": {
+        "description": "Live competitive programming benchmark v6",
+        "GPT5.2": 87.7, "Claude 4.5 Opus": 84.8, "Gemini-3 Pro": 90.7,
+        "Qwen3-Max-Thinking": 85.9, "K2.5-1T-A32B": 85.0, "Qwen3.5-397B-A17B": 83.6
+      },
+      "HMMT Feb 25": {
+        "description": "Harvard-MIT Mathematics Tournament February 2025",
+        "GPT5.2": 99.4, "Claude 4.5 Opus": 92.9, "Gemini-3 Pro": 97.3,
+        "Qwen3-Max-Thinking": 98.0, "K2.5-1T-A32B": 95.4, "Qwen3.5-397B-A17B": 94.8
+      },
+      "HMMT Nov 25": {
+        "description": "Harvard-MIT Mathematics Tournament November 2025",
+        "GPT5.2": 100.0, "Claude 4.5 Opus": 93.3, "Gemini-3 Pro": 93.3,
+        "Qwen3-Max-Thinking": 94.7, "K2.5-1T-A32B": 91.1, "Qwen3.5-397B-A17B": 92.7
+      },
+      "IMOAnswerBench": {
+        "description": "International Mathematical Olympiad answer benchmark",
+        "GPT5.2": 86.3, "Claude 4.5 Opus": 84.0, "Gemini-3 Pro": 83.3,
+        "Qwen3-Max-Thinking": 83.9, "K2.5-1T-A32B": 81.8, "Qwen3.5-397B-A17B": 80.9
+      },
+      "AIME26": {
+        "description": "American Invitational Mathematics Examination 2026",
+        "GPT5.2": 96.7, "Claude 4.5 Opus": 93.3, "Gemini-3 Pro": 90.6,
+        "Qwen3-Max-Thinking": 93.3, "K2.5-1T-A32B": 93.3, "Qwen3.5-397B-A17B": 91.3
+      }
+    }
+  },
+  "General Agent": {
+    "benchmarks": ["BFCL-V4", "TAU2-Bench", "VITA-Bench", "DeepPlanning", "Tool Decathlon", "MCP-Mark"],
+    "description": "Tests tool use, planning, and agentic capabilities",
+    "results": {
+      "BFCL-V4": {
+        "description": "Berkeley Function Calling Leaderboard V4",
+        "GPT5.2": 63.1, "Claude 4.5 Opus": 77.5, "Gemini-3 Pro": 72.5,
+        "Qwen3-Max-Thinking": 67.7, "K2.5-1T-A32B": 68.3, "Qwen3.5-397B-A17B": 72.9
+      },
+      "TAU2-Bench": {
+        "description": "Tool-Augmented Understanding benchmark v2",
+        "note": "Official setup except airline domain uses fixes from Claude Opus 4.5 system card",
+        "GPT5.2": 87.1, "Claude 4.5 Opus": 91.6, "Gemini-3 Pro": 85.4,
+        "Qwen3-Max-Thinking": 84.6, "K2.5-1T-A32B": 77.0, "Qwen3.5-397B-A17B": 86.7
+      },
+      "VITA-Bench": {
+        "description": "Virtual Intelligent Tool Agent Benchmark",
+        "GPT5.2": 38.2, "Claude 4.5 Opus": 56.3, "Gemini-3 Pro": 51.6,
+        "Qwen3-Max-Thinking": 40.9, "K2.5-1T-A32B": 41.9, "Qwen3.5-397B-A17B": 49.7
+      },
+      "DeepPlanning": {
+        "description": "Deep multi-step planning benchmark",
+        "GPT5.2": 44.6, "Claude 4.5 Opus": 33.9, "Gemini-3 Pro": 23.3,
+        "Qwen3-Max-Thinking": 28.7, "K2.5-1T-A32B": 14.5, "Qwen3.5-397B-A17B": 34.3
+      },
+      "Tool Decathlon": {
+        "description": "Multi-tool usage decathlon",
+        "GPT5.2": 43.8, "Claude 4.5 Opus": 43.5, "Gemini-3 Pro": 36.4,
+        "Qwen3-Max-Thinking": 18.8, "K2.5-1T-A32B": 27.8, "Qwen3.5-397B-A17B": 38.3
+      },
+      "MCP-Mark": {
+        "description": "Model Context Protocol benchmark",
+        "note": "GitHub MCP server v0.30.3 from api.githubcopilot.com; Playwright responses truncated at 32k tokens",
+        "GPT5.2": 57.5, "Claude 4.5 Opus": 42.3, "Gemini-3 Pro": 53.9,
+        "Qwen3-Max-Thinking": 33.5, "K2.5-1T-A32B": 29.5, "Qwen3.5-397B-A17B": 46.1
+      }
+    }
+  },
+  "Search Agent": {
+    "benchmarks": ["HLE w/ tool", "BrowseComp", "BrowseComp-zh", "WideSearch", "Seal-0"],
+    "description": "Tests web search and browsing agent capabilities",
+    "note": "Most Search Agents adopt simple context-folding strategy (256k): once cumulative Tool Response length reaches threshold, earlier Tool Responses are pruned",
+    "results": {
+      "HLE w/ tool": {
+        "description": "HLE with tool augmentation",
+        "GPT5.2": 45.5, "Claude 4.5 Opus": 43.4, "Gemini-3 Pro": 45.8,
+        "Qwen3-Max-Thinking": 49.8, "K2.5-1T-A32B": 50.2, "Qwen3.5-397B-A17B": 48.3
+      },
+      "BrowseComp": {
+        "description": "Web browsing comprehension benchmark",
+        "note": "Qwen3.5: context-folding=69.0, discard-all=78.6. K2.5 uses discard-all=74.9",
+        "GPT5.2": 65.8, "Claude 4.5 Opus": 67.8, "Gemini-3 Pro": 59.2,
+        "Qwen3-Max-Thinking": 53.9,
+        "K2.5-1T-A32B": {"context-folding": null, "discard-all": 74.9},
+        "Qwen3.5-397B-A17B": {"context-folding": 69.0, "discard-all": 78.6}
+      },
+      "BrowseComp-zh": {
+        "description": "Chinese web browsing comprehension",
+        "GPT5.2": 76.1, "Claude 4.5 Opus": 62.4, "Gemini-3 Pro": 66.8,
+        "Qwen3-Max-Thinking": 60.9, "K2.5-1T-A32B": null, "Qwen3.5-397B-A17B": 70.3
+      },
+      "WideSearch": {
+        "description": "Broad web search benchmark",
+        "note": "256k context window without any context management",
+        "GPT5.2": 76.8, "Claude 4.5 Opus": 76.4, "Gemini-3 Pro": 68.0,
+        "Qwen3-Max-Thinking": 57.9, "K2.5-1T-A32B": 72.7, "Qwen3.5-397B-A17B": 74.0
+      },
+      "Seal-0": {
+        "description": "Search evaluation and analysis level 0",
+        "GPT5.2": 45.0, "Claude 4.5 Opus": 47.7, "Gemini-3 Pro": 45.5,
+        "Qwen3-Max-Thinking": 46.9, "K2.5-1T-A32B": 57.4, "Qwen3.5-397B-A17B": 46.9
+      }
+    }
+  },
+  "Multilingualism": {
+    "benchmarks": ["MMMLU", "MMLU-ProX", "NOVA-63", "INCLUDE", "Global PIQA", "PolyMATH", "WMT24++", "MAXIFE"],
+    "description": "Tests multilingual understanding and generation",
+    "results": {
+      "MMMLU": {
+        "description": "Multilingual MMLU",
+        "GPT5.2": 89.5, "Claude 4.5 Opus": 90.1, "Gemini-3 Pro": 90.6,
+        "Qwen3-Max-Thinking": 84.4, "K2.5-1T-A32B": 86.0, "Qwen3.5-397B-A17B": 88.5
+      },
+      "MMLU-ProX": {
+        "description": "MMLU-Pro multilingual (averaged accuracy on 29 languages)",
+        "GPT5.2": 83.7, "Claude 4.5 Opus": 85.7, "Gemini-3 Pro": 87.7,
+        "Qwen3-Max-Thinking": 78.5, "K2.5-1T-A32B": 82.3, "Qwen3.5-397B-A17B": 84.7
+      },
+      "NOVA-63": {
+        "description": "NOVA 63-language benchmark",
+        "GPT5.2": 54.6, "Claude 4.5 Opus": 56.7, "Gemini-3 Pro": 56.7,
+        "Qwen3-Max-Thinking": 54.2, "K2.5-1T-A32B": 56.0, "Qwen3.5-397B-A17B": 59.1
+      },
+      "INCLUDE": {
+        "description": "Inclusive multilingual evaluation",
+        "GPT5.2": 87.5, "Claude 4.5 Opus": 86.2, "Gemini-3 Pro": 90.5,
+        "Qwen3-Max-Thinking": 82.3, "K2.5-1T-A32B": 83.3, "Qwen3.5-397B-A17B": 85.6
+      },
+      "Global PIQA": {
+        "description": "Physical Intuition QA - Global multilingual",
+        "GPT5.2": 90.9, "Claude 4.5 Opus": 91.6, "Gemini-3 Pro": 93.2,
+        "Qwen3-Max-Thinking": 86.0, "K2.5-1T-A32B": 89.3, "Qwen3.5-397B-A17B": 89.8
+      },
+      "PolyMATH": {
+        "description": "Multilingual mathematics benchmark",
+        "GPT5.2": 62.5, "Claude 4.5 Opus": 79.0, "Gemini-3 Pro": 81.6,
+        "Qwen3-Max-Thinking": 64.7, "K2.5-1T-A32B": 43.1, "Qwen3.5-397B-A17B": 73.3
+      },
+      "WMT24++": {
+        "description": "Harder subset of WMT24 after difficulty labeling and rebalancing (55 languages, XCOMET-XXL)",
+        "GPT5.2": 78.8, "Claude 4.5 Opus": 79.7, "Gemini-3 Pro": 80.7,
+        "Qwen3-Max-Thinking": 77.6, "K2.5-1T-A32B": 77.6, "Qwen3.5-397B-A17B": 78.9
+      },
+      "MAXIFE": {
+        "description": "English + multilingual original prompts (23 settings)",
+        "GPT5.2": 88.4, "Claude 4.5 Opus": 79.2, "Gemini-3 Pro": 87.5,
+        "Qwen3-Max-Thinking": 84.0, "K2.5-1T-A32B": 72.8, "Qwen3.5-397B-A17B": 88.2
+      }
+    }
+  },
+  "Coding Agent": {
+    "benchmarks": ["SWE-bench Verified", "SWE-bench Multilingual", "SecCodeBench", "Terminal Bench 2"],
+    "description": "Tests software engineering and coding agent capabilities",
+    "results": {
+      "SWE-bench Verified": {
+        "description": "Software Engineering benchmark - verified subset",
+        "GPT5.2": 80.0, "Claude 4.5 Opus": 80.9, "Gemini-3 Pro": 76.2,
+        "Qwen3-Max-Thinking": 75.3, "K2.5-1T-A32B": 76.8, "Qwen3.5-397B-A17B": 76.4
+      },
+      "SWE-bench Multilingual": {
+        "description": "SWE-bench multilingual edition",
+        "GPT5.2": 72.0, "Claude 4.5 Opus": 77.5, "Gemini-3 Pro": 65.0,
+        "Qwen3-Max-Thinking": 66.7, "K2.5-1T-A32B": 73.0, "Qwen3.5-397B-A17B": 69.3
+      },
+      "SecCodeBench": {
+        "description": "Secure coding benchmark",
+        "GPT5.2": 68.7, "Claude 4.5 Opus": 68.6, "Gemini-3 Pro": 62.4,
+        "Qwen3-Max-Thinking": 57.5, "K2.5-1T-A32B": 61.3, "Qwen3.5-397B-A17B": 68.3
+      },
+      "Terminal Bench 2": {
+        "description": "Terminal/CLI task benchmark v2",
+        "GPT5.2": 54.0, "Claude 4.5 Opus": 59.3, "Gemini-3 Pro": 54.2,
+        "Qwen3-Max-Thinking": 22.5, "K2.5-1T-A32B": 50.8, "Qwen3.5-397B-A17B": 52.5
+      }
+    }
+  }
+}
